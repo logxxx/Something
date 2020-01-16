@@ -1,1 +1,49 @@
-<mxfile host="www.draw.io" modified="2020-01-16T02:09:52.838Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.5.4" etag="gPmzwy_aOQYpC019iGKz" type="github"><diagram id="27Ec4PnAqDiWOBETc-EE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-16T02:41:26.453Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="0Kd5MXU-DLRJgZr8wZvd" version="12.5.4" type="github">
+  <diagram id="27Ec4PnAqDiWOBETc-EE" name="Page-1">
+    <mxGraphModel dx="1985" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-35" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;strokeColor=#000000;fillColor=none;fontSize=16;fontColor=#FF0000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="80" width="420" height="530" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-1" value="房间实体" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=29;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="274" width="340" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-4" value="房间号 roomId&#xa;房间创建时间 cTime&#xa;约跑启动时间 datingTime&#xa;创建人uid InviterUid" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=60;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=16;" vertex="1" parent="OCoIuBDUxnG97SgDx9cD-1">
+          <mxGeometry y="29" width="340" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-5" value="基本&#xa;属性" style="shape=partialRectangle;fontStyle=1;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=16;" vertex="1" connectable="0" parent="OCoIuBDUxnG97SgDx9cD-4">
+          <mxGeometry width="60" height="81" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-6" value="Uid&#xa;状态 State &#xa;-0准备约跑 -1约跑进行中 -2约跑已结束&#xa;RunId 关联的跑步id&#xa;EnterRoomTime 进入房间时间&#xa;DatingStartTime 约跑开始时间&#xa;DatingEndTime 约跑结束时间" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=60;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=16;strokeColor=#FF0000;" vertex="1" parent="OCoIuBDUxnG97SgDx9cD-1">
+          <mxGeometry y="110" width="340" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-7" value="房客&#xa;属性" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=16;" vertex="1" connectable="0" parent="OCoIuBDUxnG97SgDx9cD-6">
+          <mxGeometry width="60" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-11" value="跑步记录表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=18;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="850" y="85" width="220" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-14" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#000000&quot;&gt;runId 跑步id&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#000000&quot;&gt;uid&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;runType 跑步类型&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;gpsData gps数据&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;totalMile 总里程&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;totalDuration 总时长&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;isEnd 是否已结束&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;isSync 是否已同步给统计表&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;isExpire 是否已过期&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; color=&quot;#000000&quot;&gt;isDel 是否已废弃&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF0000;" vertex="1" parent="OCoIuBDUxnG97SgDx9cD-11">
+          <mxGeometry y="30" width="220" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-30" value="玩家-房间锁" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=16;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="340" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-31" value="key: $uid" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="OCoIuBDUxnG97SgDx9cD-30">
+          <mxGeometry y="26" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-32" value="value: $roomId" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="OCoIuBDUxnG97SgDx9cD-30">
+          <mxGeometry y="52" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-36" value="约跑模块" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=none;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="30" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="OCoIuBDUxnG97SgDx9cD-37" value="跑步模块" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=none;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="30" width="110" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
