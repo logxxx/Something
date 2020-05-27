@@ -1,1 +1,73 @@
-<mxfile host="www.draw.io" modified="2020-05-27T08:04:40.443Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="zfDGKhvG2pv0QkVSFAkp" version="13.1.3" type="github"><diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">7Vpdk5owFP01PHYGEkB8XNfd7UPb6dRO+xwhQmYDoTGu2l/fBMI3usxWVzrFF5OTmw/uOfcmQQ14Hx+eOEqjzyzA1ABmcDDg0gDAsk1PfinkmCPufJ4DISeBNqqAFfmNNWhqdEcCvG0YCsaoIGkT9FmSYF80MMQ52zfNNow2Z01RiDvAyke0i/4kgYg0aplm1fARkzDSU3uOblgj/znkbJfo+QwAN9knb45RMZa230YoYPsaBB8MeM8ZE3kpPtxjqnxbuC3v93iitVw3x4kY0gHOLcfEnu1tLMezTf+DHuEF0Z32xYIy/1mvVhwLD71gLoh02B0lYSIhwVIDLpCuUbyR0y+2KfJJEn5XbUuvAj5lzUtQId+0L60Mi1CqpvF3a6yquTykNuAiIFzyTZiaZMt2ypuLDUvESq/MlvVIxFTZy2LGBFbPaubj5s5WFZ/FxNdlitaYLkrq7hllXDYlLMnmF5w9lzqw9IyPKCZUyfsH5gFKULEQvVjQZaJwrfQcPtQgzcwTZjEW/ChNitZCJTqKZrq6ryQJocaimhpLdSEdBmE5dCUFWdBqGKgMMCljNMpw4JiUASdljEYZcNZUhm11pQHcHmlYzjWkYXekYQAXxWnmwF87Jr9JIjDfIB+XLVy3SIAqSay5LIWijhTAFxTjApSLW1eGLe2NhOBK7j5Wz10u9e82CrdJujyAdUi3rB7Sr8K50+FcHhB3kog2J2XMsjiVXlWPfyIb6OCH7s3pq+noEtFqtYiDTpc40EOcew3i3J5gbVEmR5BncOXBfUQEXqUqbuFyL68B48mi1wky2AoyAHsya9+eew2qZlOMDT4rtZPjTWPMmzbEd4jVGRjThjif8uoZrlwworxaaGJKrK8TZ9utq4bbE2TvllgtqxtUQYiLS552XdP/NX8EaBtluDXA/YiLO/WWsYU9ErXcnFlV165Xl1icBEUPluIkR2r2slYQ5Q7n8ySJ8prLffyKxuUSQyzOnwWVC89qgWOKBHlpvje9LLE92XIits9TcACv8/HwCs/yiuma7R8q4DTDVyVV97gdqfMBpM7GQ6o9kTqAVHcAqc54SHXOksq4iFjIEkRvz+wFc3Bj43gbzc4Amu1L05x1lf5Ax5pByuStclsb+asCai83nNYhvP27YcseFJrot5eFfAWV4MpHeaMG3Utq8D86FMwGaNAbT6qZ/TOp5uabyJDjHhhFdnHnzWxhe86Vs4U3yeiSMrJGISPgXVRGslr90SY3r/7NBB/+AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-05-27T09:16:34.863Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="6zCtDGMs-VYz9Y026DPP" version="13.1.3" type="github">
+  <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
+    <mxGraphModel dx="1158" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-2" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-3" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-5" value="COS-SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="170" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-6" value="COS" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="170" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-7" value="DMS&lt;br&gt;文件管理系统" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="170" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-8" value="记录用户的目录树结构;&lt;br&gt;统计用户已使用的空间;&lt;br&gt;记录用户的操作历史;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-9" value="生成cos密钥;&lt;br&gt;服务端操作cos上存储的文件;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-15" value="生成cos密钥;&lt;br&gt;服务端操作cos上存储的文件;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="750" y="50" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-17" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.482;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-3" target="2BbbxaQr6hZSvzHqME9C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="440" as="sourcePoint" />
+            <mxPoint x="420" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="525" as="sourcePoint" />
+            <mxPoint x="865" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-19" value="文件的删&amp;amp;改&amp;amp;查&lt;br&gt;文件夹的增&amp;amp;删&amp;amp;改&amp;amp;查&lt;br&gt;获取密钥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-20" value="文件的上传&amp;amp;下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
