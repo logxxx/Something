@@ -1,61 +1,45 @@
-<mxfile host="www.draw.io" modified="2020-05-27T09:16:34.863Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="6zCtDGMs-VYz9Y026DPP" version="13.1.3" type="github">
+<mxfile host="www.draw.io" modified="2020-05-27T09:21:03.055Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="vS_EdcSOdvh-4xtPM51W" version="13.1.3" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1158" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2BbbxaQr6hZSvzHqME9C-2" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="270" width="430" height="70" as="geometry" />
+          <mxGeometry x="90" y="240" width="430" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2BbbxaQr6hZSvzHqME9C-3" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="490" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-5" value="COS-SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="170" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2BbbxaQr6hZSvzHqME9C-6" value="COS" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="170" width="150" height="170" as="geometry" />
+          <mxGeometry x="800" y="240" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2BbbxaQr6hZSvzHqME9C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="140" as="targetPoint" />
+            <mxPoint x="110" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2BbbxaQr6hZSvzHqME9C-7" value="DMS&lt;br&gt;文件管理系统" style="shape=dataStorage;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="85" y="170" width="180" height="80" as="geometry" />
+          <mxGeometry x="90" y="150" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-8" value="记录用户的目录树结构;&lt;br&gt;统计用户已使用的空间;&lt;br&gt;记录用户的操作历史;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="10" y="40" width="210" height="100" as="geometry" />
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-8" value="维护目录树;&lt;br&gt;已使用空间;&lt;br&gt;操作历史;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-9" value="生成cos密钥;&lt;br&gt;服务端操作cos上存储的文件;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="290" y="40" width="210" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-15" value="生成cos密钥;&lt;br&gt;服务端操作cos上存储的文件;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="750" y="50" width="210" height="100" as="geometry" />
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-15" value="生成cos密钥;&lt;br&gt;文件的存取;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="2BbbxaQr6hZSvzHqME9C-17" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.482;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-3" target="2BbbxaQr6hZSvzHqME9C-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="440" as="sourcePoint" />
             <mxPoint x="420" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="300" y="525" />
+              <mxPoint x="297" y="525" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2BbbxaQr6hZSvzHqME9C-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-3">
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="525" as="sourcePoint" />
-            <mxPoint x="865" y="340" as="targetPoint" />
+            <mxPoint x="865" y="360" as="targetPoint" />
             <Array as="points">
               <mxPoint x="865" y="525" />
             </Array>
@@ -66,6 +50,28 @@
         </mxCell>
         <mxCell id="2BbbxaQr6hZSvzHqME9C-20" value="文件的上传&amp;amp;下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2BbbxaQr6hZSvzHqME9C-2" target="2BbbxaQr6hZSvzHqME9C-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="390" as="sourcePoint" />
+            <mxPoint x="560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-23" value="转发client的文件操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2BbbxaQr6hZSvzHqME9C-22">
+          <mxGeometry x="-0.3604" y="-2" relative="1" as="geometry">
+            <mxPoint x="-19.39" y="-17.8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-24" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="310" as="sourcePoint" />
+            <mxPoint x="800" y="312.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BbbxaQr6hZSvzHqME9C-25" value="获取密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2BbbxaQr6hZSvzHqME9C-24">
+          <mxGeometry x="-0.3604" y="-2" relative="1" as="geometry">
+            <mxPoint x="-19.39" y="-17.8" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
