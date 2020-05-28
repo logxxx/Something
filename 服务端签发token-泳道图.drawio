@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2020-05-28T05:30:09.368Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" version="13.1.5" etag="HcKvaWln1YfGpsC4lAgw" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7VpNc5swEP01PnYGEHbcY+PmY6ZOJjM+9KwgBdQK5BHCmPz6SkYyn8EkxglOmkvQYxHSe6vdlfAELMLtDYfr4I4hTCeOhbYT8HPiOLbjAPlPIVmOzNxpDvicIG1UACvyjDVoaTQhCMcVQ8EYFWRdBT0WRdgTFQxyztKq2ROj1beuoY8bwMqDtIn+JkgEOTp3Lgr8FhM/MG+2Z9/zOyE0xnomcQARS0sQuJqABWdM5FfhdoGpIs/wkj93/cLd/cA4jkSfB9D9Nrv/deFdzB+X6SZG+O52+s3Wo91AmugZP0h69YhFZmiIUxJSGMnWZSBCKkFbXnoBoWgJM5aoEcQCen9N65LjWIr5YIZn16A7qFzEUv0xTp5ZJCDVgOyHC+0JTtVipV6hzZrz15RsMBd4W4I0HzeYhVjwTJrs3VNrk9XaaSG1O9VYUJIZzDQItXv5+74LBeSFFuEVghjHKgnSEAMj6aK6ybgImM8iSK8K9JKzJEIYaaYKmyVjay3GHyxEplmGiWBVZRGMg93zqoEj9EMtJdmM2M4HJHJNKH1RiU5fi1nCPdzFgasXOuQ+7urRmeWGipBOvTmmUJBNdU0Prh2wP0KqkjoehXFMvIpA9ikEmvcUCFjjEmj6X6AaI+64BJp/FYFmfQUaPMTtHpXzhVnJYM1IJOJSzw8KKGXKeTVTArdWbNTsXavTXl7kIyhcZT+VI3Kn1cidS1WzOFYzMLcXNB2lx9tyXf9apK30AC2lx75GGb70mI6i9OjJ8L6sPrjUQN9qYlyx0Iy7Uw5K5UZI0Z4GRODVGu6oSOVe7ChS+7utW13nbosXtzixezIfdg+TVvXQA8Q9ycV/DUNC1QRvMd1gQTyob2gfth3dXjDK+O4lwNr9SRxS4kcqs0jmMT+lFPXdDGhqMW/R4mRbGdDHgc8pu/cOOYb5w9ndGVXIAc0E+mVWTz2Sffjqcc4h/O8PQsYS/+0Ga7oEbLI32hKw6zTqnUvC5vHgmYdwsxMYbINmttojCeFm3J8ghB99nPvRIdy4RqcWAQsfk/hT6eCMLSk0U6lOCuDskkIrme+bFMA4PlEMmBTM+A/W9X0/TAx/anecYp9nV2yW8pvr+pai6n3r+j4JevxJ4dU61HcKLcl5oKQgm8VX9fxsufhtArj6Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-28T05:42:03.429Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="xybuWlI-dIWuWjAwsp7U" version="13.1.5" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="813" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="650" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="客户端" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-23" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-23" value="用户A查看&lt;br&gt;网盘文件列表" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="20" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-24" value="请求token.&lt;br&gt;参数指明用途" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="120" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-30" value="获取token" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="320" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-11" value="使用sdk请求&lt;br&gt;文件列表" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="440" y="30" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-13" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-30" target="fT3U-HAHQSGvzkuo0mZ1-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="sourcePoint" />
+            <mxPoint x="450" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-32" value="展示给用户" style="ellipse;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+          <mxGeometry x="530" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="服务端" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="120" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-26" value="设置token权限：&lt;br&gt;Resource:net_disk/Users/A/*&lt;br&gt;Action:上传&amp;amp;下载&amp;amp;查看&amp;amp;删除" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+          <mxGeometry x="40" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-4" value="获取token&lt;br&gt;并返回给客户端" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="320" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-15" value="" style="endArrow=classic;html=1;entryX=0.563;entryY=1.068;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" target="dNxyNK7c78bLwvsdeMH5-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="140" as="sourcePoint" />
+            <mxPoint x="581.36" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-16" value="请求生成&lt;br&gt;带权限的token" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="210" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="dNxyNK7c78bLwvsdeMH5-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="110" as="sourcePoint" />
+            <mxPoint x="210" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="dNxyNK7c78bLwvsdeMH5-19" target="dNxyNK7c78bLwvsdeMH5-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" target="fT3U-HAHQSGvzkuo0mZ1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="260" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.34;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="fT3U-HAHQSGvzkuo0mZ1-11" target="fT3U-HAHQSGvzkuo0mZ1-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="190" as="sourcePoint" />
+            <mxPoint x="320" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="cos" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="240" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-34" value="cos生成token&lt;br&gt;并返回给调用方" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="210" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-12" value="返回文件列表" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry x="420" y="20" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="dNxyNK7c78bLwvsdeMH5-24" target="dNxyNK7c78bLwvsdeMH5-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="190" as="sourcePoint" />
+            <mxPoint x="240" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fT3U-HAHQSGvzkuo0mZ1-18" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" target="dNxyNK7c78bLwvsdeMH5-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
