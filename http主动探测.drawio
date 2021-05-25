@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T02:54:37.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="sY_5o8bEzMRA-AaxqVw7" type="github"><diagram id="VnocsIQO6U0iVfmygU0O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-25T03:03:38.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iEG7p7m6Zif4WMgRx_ff" version="14.6.13" type="github">
+  <diagram id="VnocsIQO6U0iVfmygU0O" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-4" value="login3任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="385" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-6" value="调用接口:&lt;br&gt;https://xluser-ssl.xunlei.com/xluser.core.login/v3/login" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="250" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-8" value="errCode=0?&lt;br&gt;sessionKey不为空?&lt;br&gt;loginKey不为空?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-9" value="step1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-11" value="调用接口:&lt;br&gt;https://xluser-ssl.xunlei.com/xluser.core.login/v3/loginkey" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="340" as="sourcePoint" />
+            <mxPoint x="760" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-13" value="errCode=0?&lt;br&gt;sessionKey不为空?&lt;br&gt;loginKey不为空?&lt;br&gt;account不为空?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="770" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-14" value="step2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="310" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-16" value="获取step1结果中的&lt;br&gt;loginKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-19" value="调用接口:&lt;br&gt;https://xluser-ssl.xunlei.com/xluser.core.login/v3/sessionlogin" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="430" as="sourcePoint" />
+            <mxPoint x="760" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-21" value="errCode=0?&lt;br&gt;sessionId不为空?&lt;br&gt;loginKey不为空?&lt;br&gt;account不为空?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="770" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-22" value="step3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="430" as="sourcePoint" />
+            <mxPoint x="310" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-24" value="获取step1结果中的&lt;br&gt;loginKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="430" as="sourcePoint" />
+            <mxPoint x="470" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wYqOQ84TnQtdoqJsuxvO-26" value="&lt;b&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;.&lt;br&gt;.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="20" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
